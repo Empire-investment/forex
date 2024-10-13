@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empire Investment</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            background-color: #f4f4f4; /* Light background */
+            color: #333; /* Dark text for contrast */
+            text-align: center;
+            padding: 50px;
+        }
+
+        h1 {
+            font-weight: bold;
+            font-size: 3em;
+            margin-bottom: 20px;
+            color: #B22222; /* Blood red for title */
+        }
+
+        p {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+        }
+
+        .logo {
+            width: 150px; /* Adjust the size of the logo */
+            margin-bottom: 20px;
+        }
+
+        /* Navigation Bar */
+        .navbar {
+            background-color: #B22222; /* Blood red background */
+            padding: 15px;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000; /* Ensure it's above other elements */
+        }
+
+        .navbar a {
+            color: white; /* White text for links */
+            margin: 0 15px; /* Space between links */
+            text-decoration: none; /* Remove underline */
+            font-weight: bold; /* Make text bold */
+            font-size: 1.2em; /* Slightly larger text */
+        }
+
+        .navbar a:hover {
+            text-decoration: underline; /* Underline on hover */
+        }
+
+        .product-list {
+            margin-top: 100px; /* Space for fixed navbar */
+            display: flex;
+            justify-content: center;
+            gap: 30px; /* Space between blocks */
+            flex-wrap: wrap; /* Allow wrapping on smaller screens */
+        }
+
+        .product {
+            border: 2px solid #B22222; /* Blood red border */
+            border-radius: 10px; /* Rounded corners */
+            padding: 20px;
+            width: 300px; /* Fixed width */
+            background-color: white; /* White background for product blocks */
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+            transition: transform 0.3s; /* Animation on hover */
+        }
+
+        .product:hover {
+            transform: scale(1.05); /* Slightly enlarge on hover */
+        }
+
+        .product img {
+            width: 100%; /* Full width of the product block */
+            border-radius: 10px; /* Rounded corners */
+            margin-bottom: 15px; /* Space below the image */
+        }
+
+        .community {
+            margin-top: 70px;
+            border: 2px solid #B22222; /* Blood red border */
+            border-radius: 10px; /* Rounded corners */
+            padding: 20px;
+            width: 80%; /* Wider block for community info */
+            text-align: center; /* Center the text */
+            margin-left: auto;
+            margin-right: auto;
+            background-color: white; /* White background for readability */
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Shadow effect */
+        }
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empire Investment</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            background-color: #f4f4f4; /* Light background */
+            color: #333; /* Dark text for contrast */
+            text-align: center;
+            padding: 50px;
+        }
+
+        h1 {
+            font-weight: bold;
+            font-size: 3em;
+            margin-bottom: 20px;
+            color: #B22222; /* Blood red for title */
+        }
+
+        p {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+        }
+
+        .logo {
+            width: 150px; /* Adjust the size of the logo */
+            margin-bottom: 20px;
+        }
+
+        /* Navigation Bar */
+        .navbar {
+            background-color: #B22222; /* Blood red background */
+            padding: 15px;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000; /* Ensure it's above other elements */
+        }
+
+        .navbar a {
+            color: white; /* White text for links */
+            margin: 0 15px; /* Space between links */
+            text-decoration: none; /* Remove underline */
+            font-weight: bold; /* Make text bold */
+            font-size: 1.2em; /* Slightly larger text */
+        }
+
+        .navbar a:hover {
+            text-decoration: underline; /* Underline on hover */
+        }
+
+        .product-list {
+            margin-top: 100px; /* Space for fixed navbar */
+            display: flex;
+            justify-content: center;
+            gap: 30px; /* Space between blocks */
+            flex-wrap: wrap; /* Allow wrapping on smaller screens */
+        }
+
+        .product {
+            border: 2px solid #B22222; /* Blood red border */
+            border-radius: 10px; /* Rounded corners */
+            padding: 20px;
+            width: 300px; /* Fixed width */
+            background-color: white; /* White background for product blocks */
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+            transition: transform 0.3s; /* Animation on hover */
+        }
+
+        .product:hover {
+            transform: scale(1.05); /* Slightly enlarge on hover */
+        }
+
+        .product img {
+            width: 100%; /* Full width of the product block */
+            border-radius: 10px; /* Rounded corners */
+            margin-bottom: 15px; /* Space below the image */
+        }
+
+        .community {
+            margin-top: 70px;
+            border: 2px solid #B22222; /* Blood red border */
+            border-radius: 10px; /* Rounded corners */
+            padding: 20px;
+            width: 80%; /* Wider block for community info */
+            text-align: center; /* Center the text */
+            margin-left: auto;
+            margin-right: auto;
+            background-color: white; /* White background for readability */
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Shadow effect */
+        }
+
+        .contact-form,
+        .about-us,
+        .feedback-section {
+            margin-top: 70px;
+            border: 2px solid #B22222; /* Blood red border */
+            border-radius: 10px; /* Rounded corners */
+            padding: 20px;
+            width: 80%; /* Wider block for contact form */
+            text-align: left; /* Align text to the left */
+            margin-left: auto; /* Center the block */
+            margin-right: auto; /* Center the block */
+            background-color: white; /* White background for readability */
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Shadow effect */
+        }
+
+        .contact-form h2,
+        .about-us h2,
+        .feedback-section h2 {
+            font-size: 2em;
+            margin-bottom: 15px;
+            color: #B22222; /* Blood red color for section titles */
+        }
+
+        .contact-form p,
+        .about-us p,
+        .feedback-section p {
+            font-size: 1em;
+            margin-bottom: 20px;
+        }
+
+        .contact-form input,
+        .contact-form textarea,
+        .feedback-section input,
+        .feedback-section textarea {
+            width: calc(100% - 20px); /* Full width minus padding */
+            padding: 10px;
+            margin: 10px 0; /* Space between inputs */
+            border: 1px solid #ccc;
+            border-radius: 5px; /* Rounded corners */
+            font-size: 1em;
+        }
+
+        .contact-form button,
+        .whatsapp-button,
+        .feedback-section button {
+            width: 100%;
+            padding: 10px;
+            background-color: #B22222; /* Blood red color */
+            color: white;
+            border: none;
+            border-radius: 5px; /* Rounded corners */
+            font-size: 1.2em;
+            cursor: pointer;
+            transition: background-color 0.3s; /* Transition effect */
+        }
+
+        .contact-form button:hover,
+        .whatsapp-button:hover,
+        .feedback-section button:hover {
+            background-color: #8B0000; /* Darker blood red on hover */
+        }
+
+        .feedback {
+            border-top: 1px solid #B22222; /* Blood red border */
+            margin-top: 15px; /* Space above feedback */
+            padding-top: 10px; /* Padding above feedback */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#community">Community</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#contact">Contact Us</a>
+    </div>
+
+    <img src="https://yt3.googleusercontent.com/LoZKGhDq8Bv9Jt2pAqf8PN5LdlSKYUgMaKTmXRjwMuZr0PKwwqKq_YUJKgoyuZBR9eI1ZMi9=s160-c-k-c0x00ffffff-no-rj" alt="Empire Investment Logo" class="logo">
+
+    <h1>Welcome to Empire Investment</h1>
+    <p>Your journey to financial freedom starts here. Together, we will grow your legacy!</p>
+
+    <button class="inquire-button" onclick="inquireAboutBootcamp()">Learn More About Our Bootcamp</button>
+
+    <div class="product-list">
+        <div class="product">
+            <strong>90 Day Bootcamp</strong><br>
+            Price: R1500<br>
+            <img src="https://imgs.search.brave.com/Ry9R6HvVnAYks3RTKLf0uxgWf_SqluPnnFpiNKSPBWc/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9kM2Yx/aXlmeHh6OGkxZS5j/bG91ZGZyb250Lm5l/dC9jb3Vyc2VzL2Nv/dXJzZV9pbWFnZS82/YWVhZjA5Yzg0NmIu/anBn" alt="Bootcamp Image">
+            <span class="toggle-button" onclick="toggleLearnMore('bootcamp-info')">Learn More</span>
+            <div class="learn-more" id="bootcamp-info" style="display: none;">
+                <strong>Schedule:</strong><br>
+                - Month 1: 2 classes per week<br>
+                - Month 2: 1 class per week<br>
+                - Month 3: 1 class every second week<br>
+                <strong>Topics Covered:</strong><br>
+                - Trading techniques<br>
+                - Crypto holdings<br>
+                - Building a portfolio<br>
+                - Share handling<br>
+                <strong>Additional Info:</strong><br>
+                All books will be sent to the student.
+            </div>
+            <button class="enroll-button" onclick="enrollBootcamp()">Enroll Now</button>
+        </div>
+
+        <div class="product">
+            <strong>Copy Trading Service</strong><br>
+            <strong>Requirements:</strong><br>
+            - Must be signed up under the Empire IB link.<br>
+            - Have R450 in your HfM Cent account.<br>
+            <strong>Description:</strong><br>
+            Follow my trades and benefit from my experience while you learn.
+            <img src="https://alltopstartups.com/wp-content/uploads/2024/04/How-Tech-Has-Transformed-the-Forex-Trading-Floor.jpg" alt="Forex Trading Floor" style="width:100%; border-radius:10px; margin-top: 10px;">
+            <button class="enroll-button" onclick="enrollCopyTrading()">Sign Up Now</button>
+        </div>
+    </div>
+
+    <div class="community" id="community">
+        <h2>Join Our Community</h2>
+        <p>Join our WhatsApp group for free signals and connect with like-minded traders.</p>
+        <a href="https://chat.whatsapp.com/KHiM3uwE8tpLcuKOAXLVEi" class="whatsapp-button">Join Our WhatsApp Group</a>
+    </div>
+
+    <div class="contact-form" id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" rows="4" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+
+    <div class="feedback-section" id="feedback">
+        <h2>Feedback</h2>
+        <p>We value your feedback! Please let us know your thoughts about our products:</p>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <textarea placeholder="Your Feedback" rows="4" required></textarea>
+            <button type="submit">Submit Feedback</button>
+        </form>
+        <div class="feedback">
+            <h3>What Our Customers Are Saying:</h3>
+            <p><strong>John Doe:</strong> "The 90 Day Bootcamp was a game changer for me!"</p>
+            <p><strong>Jane Smith:</strong> "I learned so much about trading, and the community support is fantastic!"</p>
+            <p><strong>Michael Johnson:</strong> "Copy trading has taken my trading to the next level!"</p>
+        </div>
+    </div>
+
+    <div class="about-us" id="about">
+        <h2>About Us</h2>
+        <p>We are dedicated to helping you achieve financial freedom through education and strategic investment.</p>
+    </div>
+
+    <script>
+        function inquireAboutBootcamp() {
+            alert("More information about the bootcamp will be sent to your email!");
+        }
+
+        function toggleLearnMore(infoId) {
+            const infoDiv = document.getElementById(infoId);
+            infoDiv.style.display = infoDiv.style.display === 'none' ? 'block' : 'none';
+        }
+
+        function enrollBootcamp() {
+            alert("You have successfully enrolled in the 90 Day Bootcamp!");
+        }
+
+        function enrollCopyTrading() {
+            alert("You have successfully signed up for Copy Trading!");
+        }
+    </script>
+</body>
+
+</html>
